@@ -4,3 +4,6 @@ body{
 .credits{
   background: rgb(0, 0, 0, .3);
 }
+nav{
+  margin-bottom: 50px;
+}
