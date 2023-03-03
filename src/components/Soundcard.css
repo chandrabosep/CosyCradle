@@ -13,7 +13,6 @@
 .audio_img{
     cursor: pointer;
     opacity: .5;
-    transition: opacity 0.3s;
     width: 48px;
     color: #ffffff;
 }

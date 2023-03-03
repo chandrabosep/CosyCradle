@@ -16,6 +16,16 @@ import windImg from '../assets/icons/wind.svg'
 
 import fireAudio from '../assets/audio/fire.mp3'
 import cityAudio from '../assets/audio/city.wav'
+import forestAudio from '../assets/audio/forest.ogg'
+import nightAudio from '../assets/audio/night.mp3'
+import rainAudio from '../assets/audio/rain.mp3'
+import seasideAudio from '../assets/audio/seaside.mp3'
+import thunderAudio from '../assets/audio/thunder.wav'
+import trainAudio from '../assets/audio/train.mp3'
+// import underwaterAudio from '../assets/audio/underwater.mp3'
+import streamAudio from '../assets/audio/water-stream.mp3'
+import wavesAudio from '../assets/audio/waves.mp3'
+import windAudio from '../assets/audio/wind.mp3'
 
 import Soundcard from "./Soundcard"
 import "./Soundcard.css"
@@ -25,22 +35,22 @@ import "./Soundcard.css"
 export default function Audiolist() {
     
     const svgAndAudio = [
-        [fireImg,'./fire.mp3',1],
-        [cityImg,'./city.wav',2],
-        [forestImg,'./city.wav',3],
-        [nightImg,'./city.wav',4],
-        [rainImg,'./city.wav',5],
-        [seasideImg,'./city.wav',6],
-        [thunderImg,'./city.wav',7],
-        [trainImg,'./city.wav',8],
-        [streamImg,'./city.wav',9],
-        [wavesImg,'./city.wav',10],
-        [windImg,'./city.wav',11],
+        [fireImg,fireAudio,1],
+        [cityImg,cityAudio,2],
+        [forestImg,forestAudio,3],
+        [nightImg,nightAudio,4],
+        [rainImg,rainAudio,5],
+        [seasideImg,seasideAudio,6],
+        [thunderImg,thunderAudio,7],
+        [trainImg,trainAudio,8],
+        [streamImg,streamAudio,9],
+        [wavesImg,wavesAudio,10],
+        [windImg,windAudio,11],
     ]
 
   return (
     <div className='audio-list'>
-      {svgAndAudio.map((item) => {return (<Soundcard image={item[0]} audio={item[1]}/>)})}
+      {svgAndAudio.map((item) =>  { return (<Soundcard image={item[0]} audio={item[1]} key={item[2]} />)})}
     </div>
   )   
 
