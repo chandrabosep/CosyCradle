@@ -35,23 +35,23 @@ import "./Soundcard.css"
 export default function Audiolist() {
     
     const svgAndAudio = [
-        [fireImg,fireAudio,1],
-        [cityImg,cityAudio,2],
-        [forestImg,forestAudio,3],
-        [nightImg,nightAudio,4],
-        [rainImg,rainAudio,5],
-        [seasideImg,seasideAudio,6],
-        [thunderImg,thunderAudio,7],
-        [trainImg,trainAudio,8],
-        [streamImg,streamAudio,9],
-        [wavesImg,wavesAudio,10],
-        [windImg,windAudio,11],
-        [underImg,underwaterAudio,12]
+        [fireImg,fireAudio,1,"Bonfire"],
+        [cityImg,cityAudio,2,"City"],
+        [forestImg,forestAudio,3,"Forest"],
+        [nightImg,nightAudio,4,"Summer Night"],
+        [rainImg,rainAudio,5,"Rain"],
+        [seasideImg,seasideAudio,6,"Seaside"],
+        [thunderImg,thunderAudio,7,"Thunderstorm"],
+        [trainImg,trainAudio,8,"Train"],
+        [streamImg,streamAudio,9,"Water stream"],
+        [wavesImg,wavesAudio,10,"Ocean waves"],
+        [windImg,windAudio,11,"Wind"],
+        [underImg,underwaterAudio,12,"Underwater"]
     ]
 
   return (
     <div className='audio-list'>
-      {svgAndAudio.map((item) =>  { return (<Soundcard image={item[0]} audio={item[1]} key={item[2]} />)})}
+      {svgAndAudio.map((item) =>  { return (<Soundcard image={item[0]} audio={item[1]} key={item[2]} title={item[3]} />)})}
     </div>
   )   
 
