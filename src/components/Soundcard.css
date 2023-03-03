@@ -22,8 +22,9 @@
     opacity: 1;
 }
 
-.audio_img:active{
+.audio_img_active{
     opacity: 1;
+    cursor: pointer;
 }
 
 .audio_volume{
