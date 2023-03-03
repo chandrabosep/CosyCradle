@@ -18,8 +18,8 @@ export default function Soundcard(props) {
     event.target.classList.toggle('audio_img_active')  
   }
   
-  function changeVolume(){
-    audio.current.volume=Event.target.range
+  function changeVolume(event){
+    audio.current.volume=parseFloat(event.target.value);
   }
   
   return (
