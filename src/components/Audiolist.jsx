@@ -15,6 +15,9 @@ import windImg from '../assets/icons/wind.svg'
 import fireplaceImg from '../assets/icons/fireplace.svg'
 import tentImg from '../assets/icons/tent.svg'
 import waterfallImg from '../assets/icons/waterfall.svg'
+import dropsImg from '../assets/icons/drops.svg'
+import leavesImg from '../assets/icons/leaves.svg'
+import fanImg from '../assets/icons/fan.svg'
 
 
 import fireAudio from '../assets/audio/fire.mp3'
@@ -32,6 +35,9 @@ import windAudio from '../assets/audio/wind.mp3'
 import fireplaceAudio from '../assets/audio/fireplace.mp3'
 import tentAudio from '../assets/audio/tent.mp3'
 import waterfallAudio from '../assets/audio/waterfall.mp3'
+import dropsAudio from "../assets/audio/drops.ogg"
+import leavesAudio from "../assets/audio/leaves.ogg";
+import fanAudio from '../assets/audio/fan.ogg'
 
 
 import Soundcard from "./Soundcard"
@@ -56,9 +62,11 @@ export default function Audiolist() {
         [underImg,underwaterAudio,12,"Underwater"],
         [fireplaceImg,fireplaceAudio,13,"Fireplace"],
         [waterfallImg,waterfallAudio,14,"Waterfall"], 
-        [tentImg,tentAudio,15,"Rain on Tent"]
+        [tentImg,tentAudio,15,"Rain on Tent"],
+        [dropsImg,dropsAudio,16,"Drops"],
+        [leavesImg,leavesAudio,17,"Leaves"],
+        [fanImg,fanAudio,18,"Fan"]
 
-        
     ]
 
   return (
