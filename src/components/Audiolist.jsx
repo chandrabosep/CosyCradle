@@ -12,6 +12,9 @@ import underImg from '../assets/icons/underwater.svg'
 import streamImg from '../assets/icons/water-stream.svg'
 import wavesImg from '../assets/icons/waves.svg'
 import windImg from '../assets/icons/wind.svg'
+import fireplaceImg from '../assets/icons/fireplace.svg'
+import tentImg from '../assets/icons/tent.svg'
+import waterfallImg from '../assets/icons/waterfall.svg'
 
 
 import fireAudio from '../assets/audio/fire.mp3'
@@ -26,6 +29,10 @@ import underwaterAudio from '../assets/audio/underwater.mp3'
 import streamAudio from '../assets/audio/water-stream.mp3'
 import wavesAudio from '../assets/audio/waves.mp3'
 import windAudio from '../assets/audio/wind.mp3'
+import fireplaceAudio from '../assets/audio/fireplace.mp3'
+import tentAudio from '../assets/audio/tent.mp3'
+import waterfallAudio from '../assets/audio/waterfall.mp3'
+
 
 import Soundcard from "./Soundcard"
 import "./Soundcard.css"
@@ -46,7 +53,12 @@ export default function Audiolist() {
         [streamImg,streamAudio,9,"Water stream"],
         [wavesImg,wavesAudio,10,"Ocean waves"],
         [windImg,windAudio,11,"Wind"],
-        [underImg,underwaterAudio,12,"Underwater"]
+        [underImg,underwaterAudio,12,"Underwater"],
+        [fireplaceImg,fireplaceAudio,13,"Fireplace"],
+        [waterfallImg,waterfallAudio,14,"Waterfall"], 
+        [tentImg,tentAudio,15,"Rain on Tent"]
+
+        
     ]
 
   return (
