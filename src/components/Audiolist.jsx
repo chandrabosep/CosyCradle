@@ -18,7 +18,8 @@ import waterfallImg from '../assets/icons/waterfall.svg'
 import dropsImg from '../assets/icons/drops.svg'
 import leavesImg from '../assets/icons/leaves.svg'
 import fanImg from '../assets/icons/fan.svg'
-
+import keyboardImg from '../assets/icons/keyboard.svg'
+import chimeImg from '../assets/icons/chime.svg'
 
 import fireAudio from '../assets/audio/fire.mp3'
 import cityAudio from '../assets/audio/city.wav'
@@ -38,7 +39,8 @@ import waterfallAudio from '../assets/audio/waterfall.mp3'
 import dropsAudio from "../assets/audio/drops.ogg"
 import leavesAudio from "../assets/audio/leaves.ogg";
 import fanAudio from '../assets/audio/fan.ogg'
-
+import keyboardAudio from '../assets/audio/keyboard.mp3'
+import chimeAudio from '../assets/audio/chime.mp3'
 
 import Soundcard from "./Soundcard"
 import "./Soundcard.css"
@@ -66,6 +68,8 @@ export default function Audiolist() {
         [dropsImg,dropsAudio,16,"Drops"],
         [leavesImg,leavesAudio,17,"Leaves"],
         [fanImg,fanAudio,18,"Fan"]
+        [chimeImg,chimeAudio,19,"Chime"],
+        [keyboardImg,keyboardAudio,20,"Keyboard"]
 
     ]
 
