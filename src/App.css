@@ -1,9 +1,19 @@
-body{
-  background-color: #292929;
+*{
+  margin: 0;
+  padding: 0;
 }
-.credits{
-  background: rgb(0, 0, 0, .3);
+
+body{
+  background: -webkit-linear-gradient(to right, #8ca6db, #f2709c); 
+  background: linear-gradient(to right, #8ca6db, #f2709c);
 }
 nav{
   margin-bottom: 50px;
+}
+
+.lo-go{
+  height: 30px;
+  width: 50px;
+  margin-right: 10px;
+  margin-top: -10px;
 }

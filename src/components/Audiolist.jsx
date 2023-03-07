@@ -32,7 +32,7 @@ import trainAudio from '../assets/audio/train.mp3'
 import underwaterAudio from '../assets/audio/underwater.mp3'
 import streamAudio from '../assets/audio/water-stream.mp3'
 import wavesAudio from '../assets/audio/waves.mp3'
-import windAudio from '../assets/audio/wind.mp3'
+import windAudio from '../assets/audio/wind.wav'
 import fireplaceAudio from '../assets/audio/fireplace.mp3'
 import tentAudio from '../assets/audio/tent.mp3'
 import waterfallAudio from '../assets/audio/waterfall.mp3'
@@ -43,7 +43,7 @@ import keyboardAudio from '../assets/audio/keyboard.mp3'
 import chimeAudio from '../assets/audio/chime.mp3'
 
 import Soundcard from "./Soundcard"
-import "./Soundcard.css"
+import "./Audiolist.css"
  
 
 
@@ -67,7 +67,7 @@ export default function Audiolist() {
         [tentImg,tentAudio,15,"Rain on Tent"],
         [dropsImg,dropsAudio,16,"Drops"],
         [leavesImg,leavesAudio,17,"Leaves"],
-        [fanImg,fanAudio,18,"Fan"]
+        [fanImg,fanAudio,18,"Fan"],
         [chimeImg,chimeAudio,19,"Chime"],
         [keyboardImg,keyboardAudio,20,"Keyboard"]
 
