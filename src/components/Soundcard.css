@@ -6,15 +6,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-radius: 100%;
+    border-radius: 20%;
     background: rgba(255, 255, 255, 0.05);
   }
 
 .audio_img{
     cursor: pointer;
-    opacity: .7;
-    width: 55px;
-    padding-top: 20%;
+    opacity: .6;
+    width: 50px;
+    padding-top: 25%;
 }
 
 .audio_img:hover{
@@ -32,14 +32,14 @@
     width: 100%;
     appearance: none;
     height: 2px;
-    background-color: #ffffff;
-    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 10%;
 }
 
 .audio_volume::-webkit-slider-thumb{
     width: 15px;
     height: 15px;
-    background-color: #ffffff;
+    background-color: #ebebeb;
     appearance: none;
     border-radius: 100%;
 }

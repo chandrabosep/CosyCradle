@@ -51,25 +51,30 @@ export default function Audiolist() {
     
     const svgAndAudio = [
         [fireImg,fireAudio,1,"Bonfire"],
-        [cityImg,cityAudio,2,"City"],
-        [forestImg,forestAudio,3,"Forest"],
-        [nightImg,nightAudio,4,"Summer Night"],
-        [rainImg,rainAudio,5,"Rain"],
-        [seasideImg,seasideAudio,6,"Seaside"],
-        [thunderImg,thunderAudio,7,"Thunderstorm"],
-        [trainImg,trainAudio,8,"Train"],
+        [dropsImg,dropsAudio,2,"Drops"],
+        [seasideImg,seasideAudio,3,"Seaside"],
+        [forestImg,forestAudio,4,"Forest"],
+
+        [wavesImg,wavesAudio,5,"Ocean waves"],
+        [windImg,windAudio,6,"Wind"],
+        [rainImg,rainAudio,7,"Rain"],
+        [nightImg,nightAudio,8,"Summer Night"],
+
+
         [streamImg,streamAudio,9,"Water stream"],
-        [wavesImg,wavesAudio,10,"Ocean waves"],
-        [windImg,windAudio,11,"Wind"],
-        [underImg,underwaterAudio,12,"Underwater"],
-        [fireplaceImg,fireplaceAudio,13,"Fireplace"],
-        [waterfallImg,waterfallAudio,14,"Waterfall"], 
-        [tentImg,tentAudio,15,"Rain on Tent"],
-        [dropsImg,dropsAudio,16,"Drops"],
+        [underImg,underwaterAudio,10,"Underwater"],
+        [thunderImg,thunderAudio,11,"Thunderstorm"],
+        [trainImg,trainAudio,12,"Train"],
+
+        [waterfallImg,waterfallAudio,13,"Waterfall"], 
+        [chimeImg,chimeAudio,14,"Chime"],
+        [fireplaceImg,fireplaceAudio,15,"Fireplace"],
+        [keyboardImg,keyboardAudio,16,"Keyboard"],
+
         [leavesImg,leavesAudio,17,"Leaves"],
-        [fanImg,fanAudio,18,"Fan"],
-        [chimeImg,chimeAudio,19,"Chime"],
-        [keyboardImg,keyboardAudio,20,"Keyboard"]
+        [tentImg,tentAudio,18,"Rain on Tent"],
+        [cityImg,cityAudio,19,"City"],
+        [fanImg,fanAudio,20,"Fan"]
 
     ]
 
@@ -77,6 +82,7 @@ export default function Audiolist() {
     <div className='audio-list'>
       {svgAndAudio.map((item) =>  { return (<Soundcard image={item[0]} audio={item[1]} key={item[2]} title={item[3]} />)})}
     </div>
+    
   )   
 
 }
