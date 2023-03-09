@@ -34,6 +34,15 @@ nav{
     background: -webkit-linear-gradient(to right, #2a5298, #244788); 
     background: linear-gradient(to right, #2a5298,#244788);
   }
+  .header{
+    font-size: 14px;
+    margin:-2rem 0 2rem 0;
+  
+  }
+  .header-text{
+    font-size: 15px;
+    margin: 0 0 0.5rem 0;
+  }
 }
 
 @media  screen and (min-width:600px) {
@@ -43,4 +52,5 @@ nav{
     margin-right: 8px;
     margin-top: -7px;
   }
+  
 }
