@@ -6,11 +6,11 @@
 body{
   background: #1e3c72;
   background: -webkit-linear-gradient(to right, #2a5298, #1e3c72); 
-  background: linear-gradient(to right, #2a5298, #1e3c72);
+  background: linear-gradient(to right, #2a5298,#1e3c72);
 }
 nav{
   margin-bottom: 6rem;
-  height: 3.5rem;
+  height: 3.3rem;
   box-shadow: rgb(0,0,0,0.1) 0px 1px 2px;
 }
 
@@ -19,4 +19,28 @@ nav{
   width: 50px;
   margin-right: 10px;
   margin-top: -10px;
+  cursor: pointer;
+}
+
+@media  screen and (max-width:600px) {
+  .lo-go{
+    height: 20px;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: -5px;
+  }
+  body{
+     background: #2a5298;
+    background: -webkit-linear-gradient(to right, #2a5298, #244788); 
+    background: linear-gradient(to right, #2a5298,#244788);
+  }
+}
+
+@media  screen and (min-width:600px) {
+  .lo-go{
+    height: 20px;
+    width: 40px;
+    margin-right: 8px;
+    margin-top: -7px;
+  }
 }
