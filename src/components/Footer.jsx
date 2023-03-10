@@ -11,12 +11,13 @@ export default function Footer() {
     <div className='footer mx-auto max-w-screen-xl px-4 py-8 lg:px-8 border-t border-t-slate-400'>
       <div className='sm:flex sm:items-center sm:justify-between'>
         <div className='footer-text text-center text-m text-white lg:mt-0 lg:text-right'>
-          <span>Built by <span><a href='https://chandrabose.live/' target="_blank" style={{textDecoration:"underline" }}>Chandra Bose</a></span></span>
+          <span>Built with 🖤 by <span><a href='https://chandrabose.live/' target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline" }}>Chandra Bose</a></span></span>
         </div>
         <div className='footer-icons flex justify-center align-middle'>
-          <img src={twitter} alt="twitter" style={{width:"25px"}} className='mx-5'/>
-          <img src={github} alt="github" style={{width:"25px"}} className='mx-5'/>
-          <img src={insta} alt="instagram" style={{width:"25px"}} className='mx-5'/>
+          <a href="https://twitter.com/Chandra_Bose31" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" style={{width:"25px"}} className='mx-5'/></a>
+          <a href="https://github.com/chandrabosep" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" style={{width:"25px"}} className='mx-5'/></a>
+          <a href="https://www.instagram.com/chandrabose.eth/" target="_blank" rel="noopener noreferrer"><img src={insta} alt="instagram" style={{width:"25px"}} className='mx-5'/></a>
+          
         </div>
       </div>
     </div>

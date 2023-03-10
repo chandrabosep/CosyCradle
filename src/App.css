@@ -43,7 +43,15 @@ nav{
     font-size: 15px;
     margin: 0 0 0.5rem 0;
   }
-
+  .footer{
+    max-width: 90%;
+  }
+  .footer-icons{
+    visibility: hidden;
+  }
+  .footer-text{
+    margin-top: -0.5rem;
+  }
 }
 
 @media  screen and (min-width:600px) {
@@ -52,6 +60,12 @@ nav{
     width: 40px;
     margin-right: 8px;
     margin-top: -7px;
+  }
+  .footer{
+    max-width: 90%;
+  }
+  .footer-text{
+    margin-top: -0.5rem;
   }
   
 }
