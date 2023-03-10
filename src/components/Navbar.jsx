@@ -11,7 +11,7 @@ export default function Navbar() {
             <span className='lo-go'><img src={logo} alt="logo" /></span><span className='text-lg font-normal ' style={{cursor:'pointer'}}>Ponder</span>
           </div>
           <div className='float-right'>
-            <span style={{cursor:'pointer'}} className="text-lg">
+            <span style={{cursor:'pointer'}} className="text-base">
               About
             </span>
           </div>
