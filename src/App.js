@@ -1,19 +1,20 @@
 import './App.css';
-import Audiolist from './components/Audiolist';
 import Footer from './components/Footer';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from './components/About';
+import Home from './components/Home';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Header/>
-    <div className='flex justify-center '>
-      <Audiolist/>
-    </div>
-    <Footer/>
-    </>
+    <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" Component={Home}/>
+          <Route path='/about' Component={About}/>
+        </Routes>  
+        <Footer/>
+    </Router>
   );
 }
 

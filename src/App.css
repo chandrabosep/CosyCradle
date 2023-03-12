@@ -52,6 +52,31 @@ nav{
   .footer-text{
     margin-top: -0.5rem;
   }
+  .about {
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    width: fit-content;
+    padding: 0;
+    margin: -2rem;
+  }
+
+  .about-dev{
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    width: fit-content;
+    padding: 0;
+    margin: -4rem -2rem -2rem -2rem;
+
+  }
+  .about-3{
+    content-visibility: hidden;
+    margin-bottom: 0px;
+  }
+  .icns {
+    margin-left: 1rem;  
+  }
 }
 
 @media  screen and (min-width:600px) {
