@@ -30,5 +30,4 @@ export default function Soundcard(props) {
         
       </div>
   )
-  
 }
